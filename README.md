@@ -1,6 +1,12 @@
 # Vehicle-Price-Prediction
 Application that predicts the price for a certain vehicle given some particular features extracted from Milanuncios.
 
+### Project structure
+The project is divided mainly in two different notebooks:
+
+* [MilanunciosScraper] - parametrized functions that read a listing of vehicles provided from Milanuncios. Parameters are the first and last page numbers we want to read, as well as the base url.
+* [VehicleDataAnalyzer] - notebook for data preprocessing and performing machine learning algorithms over the extracted data. A sample vehicle listing is also provided.
+
 ### Technologies
 
 The most important technologies that are being used in this project are, among others:
@@ -29,4 +35,5 @@ Vehicle-Price-Prediction is constrained to the following license:
 [Selenium]: <https://www.selenium.dev/>
 [BeautifulSoup4]: <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
 [MIT]: <https://opensource.org/licenses/MIT>
-
+[MilanunciosScraper]: <https://github.com/jjxp/Vehicle-Price-Prediction/blob/main/MilanunciosScraper.ipynb>
+[VehicleDataAnalyzer]: <https://github.com/jjxp/Vehicle-Price-Prediction/blob/main/VehicleDataAnalyzer.ipynb>
